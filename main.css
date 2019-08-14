@@ -1,0 +1,135 @@
+/**********************************
+*
+* Resume Stylesheet
+*
+*
+* White 	: #fff
+* grey borders :#DFDFDF;
+* blue: #2520FF;
+* light green :B4FFAC;
+* papyrus     :#FFF5B2;
+**********************************
+/*----------------------------
+*  fonts
+----------------------------*/
+@font-face{
+font-family: Arial, Georgia, Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+/*----------------------------
+*  Base
+----------------------------*/
+body {
+	/* background-color: rgb(235, 226, 174); */
+	background-image: url("1920hexa.png");
+
+  background-repeat: no-repeat;
+  /* background-position: right top;
+  */
+  background-attachment: fixed;
+	/* background-image: url("psmi.png");
+	background-repeat: no-repeat;
+  	background-position: right top; */
+
+
+}
+  h2, h3, h4, h5, h6 {
+font-family: Arial;
+color: #2520FF;
+border-bottom: 4px solid rgba(255, 0, 0, 0);
+
+ }
+ h5{
+	text-decoration: underline;
+	text-decoration-color: black;
+ }
+ h1{
+	 font-family: Arial;
+	 color:white;
+	 background-color: #2520FF;
+	 text-align: center;
+	 
+ }
+Main {
+/* background-color: rgb(196, 207, 148); */
+
+
+}
+ p {
+font-family: Arial;
+}
+
+
+
+ul.a {
+	
+		list-style-type: none;
+	  
+
+}
+li {
+font-family: Arial;
+}
+.b{
+	text-align: center;
+}
+
+/*----------------------------
+*  hero
+----------------------------*/
+
+.hero {
+background-color: #33FFFF;
+text-align: center;
+padding: 30px 0;
+font-family: Arial;
+border-bottom: 1px solid #DFDFDF;
+}
+
+/*----------------------------
+*  tagline
+----------------------------*/
+h4{
+border-bottom: 1px solid rgb(0, 0, 0);
+}
+.tbborder{
+border-bottom: 1px solid rgb(46, 45, 45);
+border-top: 1px solid rgb(46, 45, 45);
+padding-top: 4px;
+padding-bottom: 4px;
+text-align: center;
+}
+
+
+/*----------------------------
+*  Skills
+----------------------------*/
+.skills {
+border-bottom: 1px solid #DFDFDF;
+
+}
+
+/*----------------------------
+*  xp
+----------------------------*/
+.xp {
+border-bottom: 1px solid #DFDFDF;
+
+}
+/*----------------------------
+*  contact
+----------------------------*/
+.contact {
+	background-color: #33FFFF; 
+
+}
+
+/*----------------------------
+*  content
+----------------------------*/
+.content {
+	
+	margin: 0 auto;
+	max-width: 800px;
+}
